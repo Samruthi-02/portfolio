@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="brand">MyPortfolio</div>
+      <div class="nav__links">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#projects" class="nav__link">Skills</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section hero animate-fade">
+    <div class="hero__text">
+      <h1 class="hero__title">Hi, I'm <span class="highlight">Samruthi D</span></h1>
+      <p class="hero__subtitle">Software developer & learner</p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">See My Work</a>
+        <a href="#contact" class="btn btn--ghost">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero__avatar animate-slide">
+      <img src="https://via.placeholder.com/250" alt="profile">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section animate-up">
+    <h2 class="section__title">About Me</h2>
+    <p class="section__desc">
+      <center>I am currently pursuing a <strong>B.E. in Electronics and Communication Engineering (ECE)</strong> at Kongu Engineering College, with a strong passion for <strong>Java programming</strong>. 
+      I enjoy solving logical and algorithmic challenges</p></center>
+
+    <!-- Extra Div Boxes -->
+    <div class="about-grid">
+      <div class="about-box">
+        <h3>Skills</h3>
+        <p><center>Java, Python (Basics), C (Basics), HTML, CSS,MERN</center></p>
+      </div>
+      <div class="about-box">
+        <h3><center>Interests</center></h3>
+        <p> <center>Problem Solving,Web Development</center></p>
+      </div>
+      <div class="about-box">
+        <h3>Projects</h3>
+        <p><center>Expense tracker,portfolio</center></p>
+      </div>
+      <div class="about-box">
+        <h3>Tools</h3>
+        <p><center>Linux, GitHub,Git, VS Code</center></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Education -->
+  <section id="education" class="section animate-left">
+    <h2 class="section__title">Education</h2>
+    <div class="timeline">
+      <div class="step">
+        <div class="step__dot"></div>
+        <div class="step__panel">
+          <h3>Bachelor in Electronics and Communication 
+            Engineering
+          </h3>
+          <p>Kongu Engineering College • 8.3 CGPA </p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__dot"></div>
+        <div class="step__panel">
+          <h3>Rajendran Matric Higher Secondary School</h3>
+          <p>SSLC • PASS<br> HSC • 87% </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section animate-right">
+    <h2 class="section__title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Expense Tracker</h3>
+        <p>A MERN stack app to track daily expenses.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio showcasing my resume and work.</p>
+      </div>
+      <div class="project">
+        <h3>Hotel Booking System</h3>
+        <p>Web app to manage hotel reservations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section animate-up">
+    <h2 class="section__title">Contact</h2>
+    <form class="form">
+      <input type="text" class="input" placeholder="Your Name">
+      <input type="email" class="input" placeholder="Your Email">
+      <textarea class="textarea" placeholder="Your Message"></textarea>
+      <button class="btn btn--primary" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>samruthicxc012@gmail.com </p>
+  </footer>
+</body>
+</html>
