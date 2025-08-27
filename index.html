@@ -211,16 +211,13 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section animate-up">
-    <h2 class="section__title">Contact</h2>
-    <form class="form">
-      <input type="text" class="input" placeholder="Your Name">
-      <input type="email" class="input" placeholder="Your Email">
-      <textarea class="textarea" placeholder="Your Message"></textarea>
-      <button class="btn btn--primary" type="submit">Send Message</button>
-    </form>
-  </section>
-  
+ <form action="https://formspree.io/f/xgvlebge" method="POST" class="form">
+  <input type="text" name="name" class="input" placeholder="Your Name" required>
+  <input type="email" name="email" class="input" placeholder="Your Email" required>
+  <textarea name="message" class="textarea" placeholder="Your Message" required></textarea>
+  <button class="btn btn--primary" type="submit">Send Message</button>
+</form>
+
 
   <!-- Footer -->
   <footer class="footer">
